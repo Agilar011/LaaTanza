@@ -19,7 +19,7 @@
                 </div>
                 <div class="nav-btn">
                     <ul>
-                        <li><a href="#">Layan</a></li>
+                        <li><a href="#">Layanan</a></li>
                         <li><a href="#">Testimoni</a></li>
                         <li><a href="#">Kontak Kami</a></li>
                         <li><a href="#">Tentang</a></li>
