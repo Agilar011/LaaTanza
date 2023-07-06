@@ -13,14 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('landing', [
         "navTitle" => "LaTahzan"
-        
-
 ]);
 });
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/login-admin', function () {
+    return view('admin.login-admin');
 });
+
+Route::get('/login', function () {
+    return view('customer.login');
+});
+
+Route::get('/register', function () {
+    return view('customer.register');
+});
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
