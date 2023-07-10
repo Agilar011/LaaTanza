@@ -14,20 +14,19 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row flex-nowrap">
-            <div class="flex-wrap">
-                <div class="bg-dark col-auto col-md2 min-vh-100">
-                    <a class="d-flex text-decoration-none align-items-center">
-                        <i class="fs-5 fa fa-guage"></i><span class="fs-4 d-none d-sm-inline">SIDE MENU</span>
-                    </a>
-                    <nav class="nav nav-pills flex column">
-                        <a href="#"></a>
-                    </nav>
-                </div>
-            </div>
+
+    <div class="container-login-all">
+        <div class="login">
+            <h1>Masuk Sebagai Admin</h1>
+            <h5>Silahkan Masuk Untuk Melanjutkan</h5>
+            <input type="text" name="Email" placeholder="Email">
+            <input type="password" name="Password" placeholder="Password">
+            <a href="#">Lupa Password?</a>
+            <button type="submit">Masuk</button>
+            <p>Belum Punya Akun?<span><a href="#">Daftar</a></span></p>
         </div>
     </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

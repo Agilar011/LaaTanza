@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('landing', [
+    return view('customer.landing', [
         "navTitle" => "LaTahzan"
 ]);
 });
@@ -25,6 +25,10 @@ Route::get('/login-admin', function () {
 
 Route::get('/login', function () {
     return view('customer.login');
+});
+
+Route::get('/dashboard', function () {
+    return view('admin.main-dashboard-admin');
 });
 
 Route::get('/register', function () {
