@@ -33,19 +33,19 @@
                 </div>
 
                 <div class="list-items">
-                    <a href="#">
+                    <a href="/input-umroh">
                         <img src="img/admin/in-umroh.png" alt="" class="icon">
                         <span class="desc">Inp. Umroh</span>
                     </a>
                 </div>
                 <div class="list-items">
-                    <a href="#">
+                    <a href="/input-oto">
                         <img src="img/admin/in-oto.png" alt="" class="icon">
                         <span class="desc">Inp. Otomotif</span>
                     </a>
                 </div>
                 <div class="list-items">
-                    <a href="#">
+                    <a href="/input-properti">
                         <img src="img/admin/in-prop.png" alt="" class="icon">
                         <span class="desc">Inp. Properti</span>
                     </a>
@@ -58,19 +58,19 @@
                 </div>
 
                 <div class="list-items">
-                    <a href="#">
+                    <a href="/crd-umroh">
                         <img src="img/admin/umroh.png" alt="" class="icon">
                         <span class="desc">Umroh</span>
                     </a>
                 </div>
                 <div class="list-items">
-                    <a href="#">
+                    <a href="/crd-oto">
                         <img src="img/admin/oto.png" alt="" class="icon">
                         <span class="desc">Otomotif</span>
                     </a>
                 </div>
                 <div class="list-items">
-                    <a href="#">
+                    <a href="/crd-properti">
                         <img src="img/admin/prop.png" alt="" class="icon">
                         <span class="desc">Properti</span>
                     </a>
@@ -83,28 +83,28 @@
                 </div>
 
                 <div class="list-items">
-                    <a href="#">
+                    <a href="trx-umroh">
                         <img src="img/admin/tr-umroh.png" alt="" class="icon">
                         <span class="desc">Transaksi Umroh</span>
                     </a>
                 </div>
 
                 <div class="list-items">
-                    <a href="#">
+                    <a href="trx-oto">
                         <img src="img/admin/tr-oto.png" alt="" class="icon">
                         <span class="desc">Transaksi Otomotif</span>
                     </a>
                 </div>
 
                 <div class="list-items">
-                    <a href="#">
+                    <a href="trx-properti">
                         <img src="img/admin/tr-prop.png" alt="" class="icon">
                         <span class="desc">Transaksi Properti</span>
                     </a>
                 </div>
 
                 <div class="list-items">
-                    <a href="#">
+                    <a href="/report">
                         <img src="img/admin/report.png" alt="" class="icon">
                         <span class="desc">Laporan Transaksi</span>
                     </a>
@@ -117,7 +117,7 @@
                 </div>
 
                 <div class="list-items">
-                    <a href="#">
+                    <a href="/customer">
                         <img src="img/admin/team.png" alt="" class="icon">
                         <span class="desc">Customer</span>
                     </a>
@@ -133,6 +133,7 @@
                     <div id="hamburger"></div>
                 </label>
             </div>
+            @yield('content')
         </div>
 
     </div>

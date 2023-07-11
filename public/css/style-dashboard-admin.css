@@ -124,6 +124,17 @@
     transition: all ease-in .2s;
 }
 
+.main-content{
+
+}
+
+.main-content h1{
+    color: #111827;
+    margin: 50px 50px 50px 50px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
 /* Toggle Menu */
 
 #menu-button{
