@@ -14,27 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('customer.landing', [
-        "navTitle" => "LaTahzan"
-]);
+    return view('welcome');
 });
 
-Route::get('/login-admin', function () {
-    return view('admin.login-admin');
-});
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        if (auth()->user()->hasRole('admin')) {
+            return view('admin.main-dashboard-admin');
+        } else {
+            return view('dashboard');
+        }
+    })->name('dashboard');
 
-Route::get('/login', function () {
-    return view('customer.login');
 });
-
-Route::get('/dashboard', function () {
-    return view('admin.main-dashboard-admin');
-});
-
-Route::get('/register', function () {
-    return view('customer.register');
-});
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });

@@ -9,133 +9,147 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <div class="container">
+    {{-- x-app-layout untuk button log out yang blom nemu lokasi e wkwkwkw --}}
+    <x-app-layout>
+        {{-- <x-slot name="header">
+            <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+                {{ __('Dashboard') }}
+            </h2>
+        </x-slot> --}}
 
-        <div class="sidebar">
-            <div class="header">
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/explore.png" alt="" class="icon">
-                        <span class="desc-header">La Tahzan</span>
-                    </a>
+        <div class="container">
+
+            <div class="sidebar">
+                <div class="header">
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/explore.png" alt="" class="icon">
+                            <span class="desc-header">La Tahzan</span>
+                        </a>
+                    </div>
+                    <div class="illustration">
+                        <img src="img/admin/admin.png" alt="">
+                    </div>
                 </div>
-                <div class="illustration">
-                    <img src="img/admin/admin.png" alt="">
+
+                <div class="main">
+
+                    <div class="category">
+                        <div class="sub">
+                            <p>Input Produk</p>
+                        </div>
+                    </div>
+
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/in-umroh.png" alt="" class="icon">
+                            <span class="desc">Inp. Umroh</span>
+                        </a>
+                    </div>
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/in-oto.png" alt="" class="icon">
+                            <span class="desc">Inp. Otomotif</span>
+                        </a>
+                    </div>
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/in-prop.png" alt="" class="icon">
+                            <span class="desc">Inp. Properti</span>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <div class="sub">
+                            <p>Etalase Toko</p>
+                        </div>
+                    </div>
+
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/umroh.png" alt="" class="icon">
+                            <span class="desc">Umroh</span>
+                        </a>
+                    </div>
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/oto.png" alt="" class="icon">
+                            <span class="desc">Otomotif</span>
+                        </a>
+                    </div>
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/prop.png" alt="" class="icon">
+                            <span class="desc">Properti</span>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <div class="sub">
+                            <p>Data Transaksi</p>
+                        </div>
+                    </div>
+
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/tr-umroh.png" alt="" class="icon">
+                            <span class="desc">Transaksi Umroh</span>
+                        </a>
+                    </div>
+
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/tr-oto.png" alt="" class="icon">
+                            <span class="desc">Transaksi Otomotif</span>
+                        </a>
+                    </div>
+
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/tr-prop.png" alt="" class="icon">
+                            <span class="desc">Transaksi Properti</span>
+                        </a>
+                    </div>
+
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/report.png" alt="" class="icon">
+                            <span class="desc">Laporan Transaksi</span>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <div class="sub">
+                            <p>Customer</p>
+                        </div>
+                    </div>
+
+                    <div class="list-items">
+                        <a href="#">
+                            <img src="img/admin/team.png" alt="" class="icon">
+                            <span class="desc">Customer</span>
+                        </a>
+                    </div>
+
                 </div>
             </div>
 
-            <div class="main">
-
-                <div class="category">
-                    <div class="sub">
-                        <p>Input Produk</p>
-                    </div>
+            <div class="main-content">
+                <div id="menu-button">
+                    <input type="checkbox" name="" id="menu-checkbox">
+                    <label for="menu-checkbox" id="menu-label">
+                        <div id="hamburger"></div>
+                    </label>
                 </div>
-
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/in-umroh.png" alt="" class="icon">
-                        <span class="desc">Inp. Umroh</span>
-                    </a>
-                </div>
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/in-oto.png" alt="" class="icon">
-                        <span class="desc">Inp. Otomotif</span>
-                    </a>
-                </div>
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/in-prop.png" alt="" class="icon">
-                        <span class="desc">Inp. Properti</span>
-                    </a>
-                </div>
-
-                <div class="category">
-                    <div class="sub">
-                        <p>Etalase Toko</p>
-                    </div>
-                </div>
-
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/umroh.png" alt="" class="icon">
-                        <span class="desc">Umroh</span>
-                    </a>
-                </div>
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/oto.png" alt="" class="icon">
-                        <span class="desc">Otomotif</span>
-                    </a>
-                </div>
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/prop.png" alt="" class="icon">
-                        <span class="desc">Properti</span>
-                    </a>
-                </div>
-
-                <div class="category">
-                    <div class="sub">
-                        <p>Data Transaksi</p>
-                    </div>
-                </div>
-
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/tr-umroh.png" alt="" class="icon">
-                        <span class="desc">Transaksi Umroh</span>
-                    </a>
-                </div>
-
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/tr-oto.png" alt="" class="icon">
-                        <span class="desc">Transaksi Otomotif</span>
-                    </a>
-                </div>
-
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/tr-prop.png" alt="" class="icon">
-                        <span class="desc">Transaksi Properti</span>
-                    </a>
-                </div>
-
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/report.png" alt="" class="icon">
-                        <span class="desc">Laporan Transaksi</span>
-                    </a>
-                </div>
-
-                <div class="category">
-                    <div class="sub">
-                        <p>Customer</p>
-                    </div>
-                </div>
-
-                <div class="list-items">
-                    <a href="#">
-                        <img src="img/admin/team.png" alt="" class="icon">
-                        <span class="desc">Customer</span>
-                    </a>
-                </div>
-
             </div>
+
         </div>
 
-        <div class="main-content">
-            <div id="menu-button">
-                <input type="checkbox" name="" id="menu-checkbox">
-                <label for="menu-checkbox" id="menu-label">
-                    <div id="hamburger"></div>
-                </label>
-            </div>
-        </div>
 
-    </div>
+    </x-app-layout>
+
+
+
     <script src="js/script.js"></script>
 </body>
 </html>
