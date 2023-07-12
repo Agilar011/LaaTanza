@@ -46,23 +46,22 @@
             </div>
         </div>
 
-        {{-- <div class="category-menu">
+        <div class="category-menu">
             <div class="dropdown">
                 <div class="select">
                     <span class="selected">Semua Kategori</span>
                     <div class="caret"></div>
                 </div>
                 <ul class="menu">
-                    <li><a href="">Semua Kategori</a></li>
-                    <li><a href="">Umroh</a></li>
-                    <li><a href="">Properti</a></li>
-                    <li><a href="">Otomotif</a></li>
+                    <li><a href="/umroh">Umroh</a></li>
+                    <li><a href="/properti">Properti</a></li>
+                    <li><a href="/otomotif">Otomotif</a></li>
                 </ul>
             </div>
-        </div> --}}
+        </div>
 
         <div class="container-content">
-            @yield('content')
+            @yield('content-kategori')
         </div>
 
 
@@ -133,10 +132,6 @@
 
         function oto() {
             window.open("/otomotif")
-        }
-
-        function prop() {
-            window.open("/properti")
         }
 
         const dropdowns = document.querySelectorAll('.dropdown');

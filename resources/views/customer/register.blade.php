@@ -7,7 +7,7 @@
 @section('content')
 <div class="container-register-all">
     <div class="register">
-        <h1>Yuk Dulu Daftar Disini!</h1>
+        <h1>Yuk Daftar Dulu Disini!</h1>
         <h5>Daftar terlebih dahulu untuk mengakses fitur lanjutan kami!</h5>
 
         <input type="text" name="Nama" placeholder="Nama Lengkap">

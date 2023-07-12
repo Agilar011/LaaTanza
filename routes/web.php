@@ -29,6 +29,17 @@ Route::get('/register', function () {
     return view('customer.register');
 });
 
+Route::get('/otomotif', function () {
+    return view('customer.feature.oto-page');
+});
+
+Route::get('/properti', function () {
+    return view('customer.feature.prop-page');
+});
+
+
+
+
 
 // ADMIN
 
