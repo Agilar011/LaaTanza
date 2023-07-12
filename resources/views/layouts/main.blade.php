@@ -139,6 +139,10 @@
             window.open("/properti")
         }
 
+        function umroh() {
+            window.open("/umroh")
+        }
+
         const dropdowns = document.querySelectorAll('.dropdown');
         dropdowns.forEach(dropdowns => {
             const select = dropdowns.querySelector('.select');
