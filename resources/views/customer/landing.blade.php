@@ -1,5 +1,10 @@
 @extends('layouts.main')
 
+@section("title")
+    La Tahzan | Home
+@endsection
+
+
 @section('content')
 
 <div class="layer-1">

@@ -1,5 +1,10 @@
 @extends('layouts.main')
 
+@section("title")
+    La Tahzan | Masuk
+@endsection
+
+
 @section('content')
     <div class="container-login-all">
         <div class="login">

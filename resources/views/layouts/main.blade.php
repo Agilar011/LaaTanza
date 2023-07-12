@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style-landing.css">
     <link rel="stylesheet" href="css/style-login-register.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>La Tahzan | Home</title>
+    <title>@yield('title')</title>
 </head>
 <body>
     <div class="container-all">
@@ -50,10 +50,19 @@
 
     </div>
 
-    <script>
+    <script type="text/javascript">
+        function noTelp(evt){
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57)){
+                return false;
+            return true
+            }
+        }
+
         function welcome() {
             window.open("/login")
         }
     </script>
+
 </body>
 </html>
