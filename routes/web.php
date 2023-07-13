@@ -26,7 +26,7 @@ Route::middleware([
         if (auth()->user()->hasRole('admin')) {
             return view('admin.main-dashboard-admin');
         } else {
-            return view('dashboard');
+            return view('customer.coba');
         }
     })->name('dashboard');
 
