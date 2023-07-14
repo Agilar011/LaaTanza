@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< Updated upstream
     "content-hash": "da114f946497487eade6cd2756898b4b",
-=======
-    "content-hash": "4f847b5604972411b18061d8cba58492",
->>>>>>> Stashed changes
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1283,18 +1279,6 @@
         },
         {
             "name": "laravel/framework",
-<<<<<<< Updated upstream
-            "version": "v10.14.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "6f89a2b74b232d8bf2e1d9ed87e311841263dfcb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6f89a2b74b232d8bf2e1d9ed87e311841263dfcb",
-                "reference": "6f89a2b74b232d8bf2e1d9ed87e311841263dfcb",
-=======
             "version": "v10.15.0",
             "source": {
                 "type": "git",
@@ -1305,7 +1289,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/c7599dc92e04532824bafbd226c2936ce6a905b8",
                 "reference": "c7599dc92e04532824bafbd226c2936ce6a905b8",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -1492,22 +1475,6 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-<<<<<<< Updated upstream
-            "time": "2023-06-28T14:25:16+00:00"
-        },
-        {
-            "name": "laravel/jetstream",
-            "version": "v3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/jetstream.git",
-                "reference": "c65656cc4743b3b87837777e24f6caffdc9ce3f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/c65656cc4743b3b87837777e24f6caffdc9ce3f3",
-                "reference": "c65656cc4743b3b87837777e24f6caffdc9ce3f3",
-=======
             "time": "2023-07-11T13:43:52+00:00"
         },
         {
@@ -1522,7 +1489,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/jetstream/zipball/43ce5c4c2c31a7ab7ef5d3f49dfb41f83d206706",
                 "reference": "43ce5c4c2c31a7ab7ef5d3f49dfb41f83d206706",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -1578,11 +1544,7 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-<<<<<<< Updated upstream
-            "time": "2023-06-07T13:20:25+00:00"
-=======
             "time": "2023-07-08T21:21:48+00:00"
->>>>>>> Stashed changes
         },
         {
             "name": "laravel/sanctum",
@@ -2171,7 +2133,6 @@
             "time": "2022-04-17T13:12:02+00:00"
         },
         {
-<<<<<<< Updated upstream
             "name": "livewire/livewire",
             "version": "v2.12.3",
             "source": {
@@ -2245,8 +2206,6 @@
             "time": "2023-03-03T20:12:38+00:00"
         },
         {
-=======
->>>>>>> Stashed changes
             "name": "mobiledetect/mobiledetectlib",
             "version": "2.8.41",
             "source": {
@@ -7156,18 +7115,6 @@
         },
         {
             "name": "phpunit/phpunit",
-<<<<<<< Updated upstream
-            "version": "10.2.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "68484779b5a2ed711fbdeba6ca01910d87acdff2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/68484779b5a2ed711fbdeba6ca01910d87acdff2",
-                "reference": "68484779b5a2ed711fbdeba6ca01910d87acdff2",
-=======
             "version": "10.2.5",
             "source": {
                 "type": "git",
@@ -7178,7 +7125,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/15a89f123d8ca9c1e1598d6d87a56a8bf28c72cd",
                 "reference": "15a89f123d8ca9c1e1598d6d87a56a8bf28c72cd",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -7250,11 +7196,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-<<<<<<< Updated upstream
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.2.4"
-=======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.2.5"
->>>>>>> Stashed changes
             },
             "funding": [
                 {
@@ -7270,11 +7212,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< Updated upstream
-            "time": "2023-07-10T04:06:08+00:00"
-=======
             "time": "2023-07-14T04:18:47+00:00"
->>>>>>> Stashed changes
         },
         {
             "name": "sebastian/cli-parser",
