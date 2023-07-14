@@ -13,11 +13,69 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    <div class="container-all">
+    <x-app-layout>
+        <div class="container-all">
+
+            <div class="container-navbar">
+
+                {{-- <div class="navbar">
+                    <div class="nav-title">
+                        <a href="/"><h1>LaTahzan</h1></a>
+                    </div>
+                    <div class="nav-btn">
+                        <ul>
+                            <li><a href="#">Layanan</a></li>
+                            <li><a href="#">Testimoni</a></li>
+                            <li><a href="#">Kontak Kami</a></li>
+                            <li><a href="#">Tentang</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="searchbar">
+                        <form>
+                            <input type="text" placeholder="Temukan Motor, Rumah atau Paket Umroh Disini..">
+                            <button type="submit">Cari</button>
+                        </form>
+                    </div>
+
+                    <div class="login-register">
+                        <div class="content">
+                            <a href="/register">Daftar</a>
+                            <button type="button" onclick="welcome()">Masuk</button>
+                        </div>
+                    </div>
+                </div> --}}
+            </div>
+
+            <div class="category-menu">
+                <div class="dropdown">
+                    <div class="select">
+                        <span class="selected">Semua Kategori</span>
+                        <div class="caret"></div>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="">Semua Kategori</a></li>
+                        <li><a href="">Umroh</a></li>
+                        <li><a href="">Properti</a></li>
+                        <li><a href="">Otomotif</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container-content">
+                @yield('content')
+            </div>
+
+
+        </div>
+    </x-app-layout>
+
+
+    {{-- <div class="container-all">
 
         <div class="container-navbar">
 
-            <div class="navbar">
+            {{-- <div class="navbar">
                 <div class="nav-title">
                     <a href="/"><h1>LaTahzan</h1></a>
                 </div>
@@ -43,10 +101,10 @@
                         <button type="button" onclick="welcome()">Masuk</button>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
 
-        {{-- <div class="category-menu">
+        <div class="category-menu">
             <div class="dropdown">
                 <div class="select">
                     <span class="selected">Semua Kategori</span>
@@ -59,14 +117,14 @@
                     <li><a href="">Otomotif</a></li>
                 </ul>
             </div>
-        </div> --}}
+        </div>
 
         <div class="container-content">
             @yield('content')
         </div>
 
 
-    </div>
+    {{-- </div> --}} --}}
 
     <footer class="footer-container">
         <div class="footer-left">
