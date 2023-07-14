@@ -1,6 +1,6 @@
-<nav x-data="{ open: false }" class="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
+<nav x-data="{ open: false }" class="bg-white dark:bg-white-1 border-b border-gray-100 dark:border-gray-700">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-9xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
@@ -13,8 +13,35 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('LaTahzan') }}
                     </x-nav-link>
+                </div>
+                <div class="navbar">
+                    {{-- <div class="nav-title">
+                        <a href="/"><h1>LaTahzan</h1></a>
+                    </div> --}}
+                    <div class="nav-btn">
+                        <ul>
+                            <li><a href="#">Layanan</a></li>
+                            <li><a href="#">Testimoni</a></li>
+                            <li><a href="#">Kontak Kami</a></li>
+                            <li><a href="#">Tentang</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="searchbar">
+                        <form>
+                            <input type="text" placeholder="Temukan Motor, Rumah atau Paket Umroh Disini..">
+                            <button type="submit">Cari</button>
+                        </form>
+                    </div>
+
+                    <div class="login-register">
+                        <div class="content">
+                            <a href="/register">Daftar</a>
+                            <button type="button" onclick="welcome()">Masuk</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
