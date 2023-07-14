@@ -237,7 +237,7 @@
 
         </div>
 
-        <div class="main-content">
+        {{-- <div class="main-content">
             <div id="menu-button">
                 <input type="checkbox" name="" id="menu-checkbox">
                 <label for="menu-checkbox" id="menu-label">
@@ -245,7 +245,7 @@
                 </label>
             </div>
             @yield('content')
-        </div>
+        </div> --}}
 
     </x-app-layout>
 
