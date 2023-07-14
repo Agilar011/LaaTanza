@@ -126,7 +126,7 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard', function () {
         if (auth()->user()->hasRole('admin')) {
-            return view('layouts.admin-sidebar');
+            return view('customer.coba');
         } else {
             return view('customer.landing');
         }
