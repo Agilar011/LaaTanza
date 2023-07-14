@@ -17,7 +17,7 @@
             </h2>
         </x-slot> --}}
 
-        <div class="container">
+        {{-- <div class="container">
 
             <div class="sidebar">
                 <div class="header">
@@ -235,7 +235,7 @@
 
             </div>
 
-        </div>
+        </div> --}}
 
         {{-- <div class="main-content">
             <div id="menu-button">
