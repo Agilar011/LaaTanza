@@ -16,7 +16,7 @@
 
             <div>
                 <x-label for="birthdate" value="{{ __('birth Date') }}" />
-                <x-input id="birthdate" class="block mt-1 w-full" type="text" name="birthdate" :value="old('birthdate')" required autofocus autocomplete="birthdate" />
+                <x-input id="birthdate" class="block mt-1 w-full" type="date" name="birthdate" :value="old('birthdate')" required autofocus autocomplete="birthdate" />
             </div>
 
             <div>

@@ -119,6 +119,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('customer.landing');
 });
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -126,7 +127,7 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard', function () {
         if (auth()->user()->hasRole('admin')) {
-            return view('customer.coba');
+            return view('admin.das');
         } else {
             return view('customer.landing');
         }
