@@ -16,7 +16,7 @@
         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
             voluptates dolore autem optio corporis, veniam error vero obcaecati
              ratione voluptate laboriosam iste vitae magni, rerum maxime exercitationem
-             iure doloribus, illum iusto architector
+             iure doloribus, illum iusto architecto
         </h5>
 
 
@@ -35,7 +35,7 @@
 
     <div class="layer2-bottom">
         <div class="btn-umroh">
-            <button type="button" onclick="umroh()"><img src="img/umroh.png"></button>
+            <button type="button" onclick=""><img src="img/umroh.png"></button>
             <h3>Umroh</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Suscipit atque labore quo unde, sit recusandae.</p>
@@ -176,8 +176,8 @@
 
 
 
-        <div class="layer3-btn">
-            <button type="button" onclick="umroh()">Lihat Selengkapnya Paket Umroh / Haji</button>
+        <div class="layer4-btn">
+            <button type="button">Lihat Selengkapnya Paket Umroh / Haji</button>
         </div>
 
     </div>

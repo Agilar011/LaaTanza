@@ -35,12 +35,6 @@ Route::get('/properti', function () {
     return view('customer.feature.prop-page');
 });
 
-Route::get('/umroh', function () {
-    return view('customer.feature.umroh-page');
-});
-
-
-
 
 
 
