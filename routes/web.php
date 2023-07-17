@@ -128,7 +128,7 @@ Route::middleware([
         if (auth()->user()->hasRole('admin')) {
             return view('admin.main-dashboard-admin');
         } else {
-            return view('customer.coba');
+            return view('dashboard');
         }
     })->name('dashboard');
 
