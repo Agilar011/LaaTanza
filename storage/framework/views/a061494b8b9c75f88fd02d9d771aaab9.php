@@ -1,0 +1,1 @@
+<?php /**PATH D:\project\LaaTanzaa\FIle Website\web\resources\views/customer/feature/welcome.blade.php ENDPATH**/ ?>
