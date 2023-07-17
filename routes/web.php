@@ -16,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 // CUSTOMER
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('customer.landing', [
+        "navTitle" => "LaTahzan"
+]);
 });
 
 Route::get('/login', function () {
@@ -119,17 +121,3 @@ Route::get('/customer', function () {
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        if (auth()->user()->hasRole('admin')) {
-            return view('admin.main-dashboard-admin');
-        } else {
-            return view('customer.coba');
-        }
-    })->name('dashboard');
-
-});
